@@ -1,0 +1,18 @@
+target 'WQBaseProject' do
+
+pod 'SDWebImage', '~> 4.3.0'
+pod 'AFNetworking', '~> 2.5.3'
+pod 'YYModel', '~> 1.0.4'
+pod 'ReactiveCocoa', '~> 2.5.0'
+pod 'AFNetworking-RACExtensions', '~> 0.1.8'
+pod 'MBProgressHUD', '~> 1.1.0'
+pod 'MJRefresh', '~> 3.1.15.3'
+pod 'Masonry', '~> 1.1.0'
+pod 'ReactiveCocoaLayout', '~> 0.4'
+pod 'SAMKeychain', '~> 1.5.3'
+pod 'JLRoutes', '~> 2.1'
+pod 'MLeaksFinder'
+pod 'JPFPSStatus', '~> 0.1.1'
+pod 'FMDB', '~> 2.7.2'
+
+end

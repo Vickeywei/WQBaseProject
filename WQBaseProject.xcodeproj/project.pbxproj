@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		239605E0DD3E69ADE708683E /* libPods-WQBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3E8EFA584981522AAA46E9 /* libPods-WQBaseProject.a */; };
 		98E25803205810860011B1EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E25802205810860011B1EE /* AppDelegate.m */; };
 		98E25806205810860011B1EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E25805205810860011B1EE /* ViewController.m */; };
 		98E25809205810860011B1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E25807205810860011B1EE /* Main.storyboard */; };
@@ -51,6 +52,9 @@
 		98E25821205810870011B1EE /* WQBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E25825205810870011B1EE /* WQBaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQBaseProjectUITests.m; sourceTree = "<group>"; };
 		98E25827205810870011B1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E8EFA584981522AAA46E9 /* libPods-WQBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80B454D11BDBCF8EC8BBDC4 /* Pods-WQBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQBaseProject/Pods-WQBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		FE609F15F560E5C0A7491671 /* Pods-WQBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBaseProject/Pods-WQBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239605E0DD3E69ADE708683E /* libPods-WQBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C685536FBDA3487B840E21A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE609F15F560E5C0A7491671 /* Pods-WQBaseProject.debug.xcconfig */,
+				E80B454D11BDBCF8EC8BBDC4 /* Pods-WQBaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		98E257F5205810860011B1EE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				98E25819205810860011B1EE /* WQBaseProjectTests */,
 				98E25824205810870011B1EE /* WQBaseProjectUITests */,
 				98E257FF205810860011B1EE /* Products */,
+				7C685536FBDA3487B840E21A /* Pods */,
+				DF1263E7B78E227C1EA9C45B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +148,14 @@
 			path = WQBaseProjectUITests;
 			sourceTree = "<group>";
 		};
+		DF1263E7B78E227C1EA9C45B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E8EFA584981522AAA46E9 /* libPods-WQBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98E2582A205810870011B1EE /* Build configuration list for PBXNativeTarget "WQBaseProject" */;
 			buildPhases = (
+				E9B590FB0FE8BE420806CD02 /* [CP] Check Pods Manifest.lock */,
 				98E257FA205810860011B1EE /* Sources */,
 				98E257FB205810860011B1EE /* Frameworks */,
 				98E257FC205810860011B1EE /* Resources */,
+				96B1B10391DF1E5C1F39617F /* [CP] Embed Pods Frameworks */,
+				1B158723FD9EB9FF72B509B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B158723FD9EB9FF72B509B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WQBaseProject/Pods-WQBaseProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBaseProject/Pods-WQBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B1B10391DF1E5C1F39617F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBaseProject/Pods-WQBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B590FB0FE8BE420806CD02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WQBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98E257FA205810860011B1EE /* Sources */ = {
@@ -428,6 +510,7 @@
 		};
 		98E2582B205810870011B1EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE609F15F560E5C0A7491671 /* Pods-WQBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +525,7 @@
 		};
 		98E2582C205810870011B1EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80B454D11BDBCF8EC8BBDC4 /* Pods-WQBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

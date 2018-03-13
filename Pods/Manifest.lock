@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking-RACExtensions (0.1.8):
+    - AFNetworking (~> 2.5.3)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Archimedes (1.1)
+  - FBRetainCycleDetector (0.1.4)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - JLRoutes (2.1)
+  - JPFPSStatus (0.1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveCocoaLayout (0.4):
+    - Archimedes
+    - ReactiveCocoa (~> 2.0)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.3)
+  - AFNetworking-RACExtensions (~> 0.1.8)
+  - FMDB (~> 2.7.2)
+  - JLRoutes (~> 2.1)
+  - JPFPSStatus (~> 0.1.1)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.1.15.3)
+  - MLeaksFinder
+  - ReactiveCocoa (~> 2.5.0)
+  - ReactiveCocoaLayout (~> 0.4)
+  - SAMKeychain (~> 1.5.3)
+  - SDWebImage (~> 4.3.0)
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  Archimedes: a181c40a4de8d6bb8ee21bb0f89e9cd758fbb3ce
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveCocoaLayout: d4bf94128119e5c56ba7425a296d58e1e9a4d7da
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: ae34584a4b2fd96cd1135299fa1e2e8313887b20
+
+COCOAPODS: 1.4.0.beta.1
