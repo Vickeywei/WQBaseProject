@@ -92,6 +92,55 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		980FA97B20581657007108D1 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		980FA97C20581657007108D1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		980FA97D20581657007108D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		980FA97E20581657007108D1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		980FA97F20581657007108D1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		980FA98020581657007108D1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		980FA98120581657007108D1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		98E257F5205810860011B1EE = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +166,13 @@
 		98E25800205810860011B1EE /* WQBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				980FA98020581657007108D1 /* Base */,
+				980FA98120581657007108D1 /* Category */,
+				980FA97D20581657007108D1 /* Classes */,
+				980FA97B20581657007108D1 /* Constant */,
+				980FA97E20581657007108D1 /* Lib */,
+				980FA97C20581657007108D1 /* Resource */,
+				980FA97F20581657007108D1 /* Tools */,
 				98E25801205810860011B1EE /* AppDelegate.h */,
 				98E25802205810860011B1EE /* AppDelegate.m */,
 				98E25804205810860011B1EE /* ViewController.h */,
